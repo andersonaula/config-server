@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: greeting-service
+
+  cloud:
+    config:
+      enabled: false
+      import-check:
+        enabled: false
+
+
+greeting-service:
+  greeting: "Hellow"
+  default-value: "Wold"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

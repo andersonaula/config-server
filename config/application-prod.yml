@@ -10,7 +10,7 @@ spring:
 
 
 greeting-service:
-  greeting: "Olá"
+  greeting: "Oláxxx"
   default-value: "Mundo"
 
 
